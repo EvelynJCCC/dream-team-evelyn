@@ -1,0 +1,149 @@
+body {
+    background: #FFE2C2;
+    text-align: center;
+    margin: 0; 
+    padding: 0;
+    font-family: 'Roboto', 'Sans serif';
+    
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+h1 {
+    font-size: 50px;
+      margin-top: 0px;
+      width: 100%;
+      color: #FF3F0A;
+    
+}
+
+ h2 {
+      margin-top: 0px;
+      width: 100%;
+      color: #FF3F0A;
+ }
+
+#hands {
+    width: 50px;
+    margin: 0;
+    padding: 0;
+}
+
+
+img {
+    margin-bottom: 0px;
+    margin-right: 40px;
+    margin-top: 20px;
+    width: 150px;
+}
+::placeholder {
+    color: #FF4005;
+}
+
+textarea {
+    outline: none; 
+    font-family: 'Roboto', 'Sans serif';
+    display: block; 
+    width: min(100%, 315px);
+    margin: 0 auto;
+    border-radius: 0.5rem;
+    background-color: #FBBEB9; 
+    color: #FF3F0A;
+    padding: 0.75rem 1rem;
+    box-sizing: border-box;
+    margin-block-end: 0.75rem;
+    border: none;
+    resize: none;
+    font-family: inherit;
+    border: 1px solid #FF3F0A;
+}
+
+textarea:focus {
+    outline : none;
+}
+
+.flex {
+    margin: 0;
+    gap: 20px;
+    width:  min(100%, 315px);
+    display: flex;
+    flex-direction: row;
+     border: 0;
+    
+}
+
+.flex input:focus {
+    outline: none;
+}
+.flex input {
+    border: 1px solid #FF3F0A;
+    font-family: 'Roboto', 'Sans serif';
+    text-align: center;
+    padding: 10px;
+    background: #FBBEB9;
+    width: min(100%, 315px);
+     border-radius: 0.5rem;
+     color: #FF3F0A;
+}
+
+button:focus {
+    outline: none;
+     border: 1px solid #FF3F0A;
+}
+
+button {
+    font-family: 'Roboto', 'Sans serif';
+    color: #FF3F0A;
+    font-size: 1.375rem; 
+    display: block;
+    background-color: #F9C300;
+    border-radius: 0.5rem; 
+    padding: 0.5em 1.5em;
+    width: min(100%, 315px);
+    margin: 15px;
+    border: 1px solid #FF3F0A;
+    outline: none;
+    transition: background-color 250ms ease-in, color 250ms ease-in;
+    
+}
+
+button:hover {
+    outline: none;
+    background-color: transparent;
+    color: #FF3F0A;
+    border-radius: 0.5rem; 
+    border: 1px solid #FF3F0A;
+}
+
+h2 {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+  
+    margin: auto;
+    width:  min(100%, 315px);
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center items horizontally */
+}
+
+
+
+#endorsementsList {
+    width: 100%;
+    text-align: left;
+}
+
+
+#endorsementsList div {
+     border-radius: 0.5rem;
+    background: white;
+    padding: 10px;
+    margin-bottom: 20px; /* Increase this value to add more space below each endorsement */
+    box-sizing: border-box;
+}
